@@ -1,0 +1,74 @@
+body{
+    height: 100vh;
+    background: radial-gradient(121.73% 181.92% at 6.77% 4.33%, rgb(79, 82, 117) 0%, rgb(51, 48, 75) 100%);
+}
+
+.div{
+    background: linear-gradient(135deg, rgb(116, 203, 72) 0%, rgb(164, 62, 158) 100%);
+    max-width: 500px;
+    height: calc(100vh - 100px);
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.img{
+    margin-left: 20px;
+}
+
+.div2{
+    width: calc(100% - 10px);
+    height:calc(100% - 180px);
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 5px;
+    transform: translatex(-50);
+}
+
+.imgg{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+
+    animation-name: aylan;
+    animation-duration:3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes aylan{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.imggg{
+    width: 150px;
+    margin-left: 170px;
+    margin-bottom: 60px;
+}
